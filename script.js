@@ -32,8 +32,8 @@ const quizData = [
 let currentQuestion = 0;
 
 function startGame() {
-    document.getElementById("startButton").styles.display = "none";
-    document.getElementById("intro").styles.display = "none";
+    document.getElementById("startButton").style.display = "none";
+    document.getElementById("intro").style.display = "none";
     document.getElementById("quizContainer").classList.remove("hidden");
     loadQuestion();
 }
