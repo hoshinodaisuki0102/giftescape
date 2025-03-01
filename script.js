@@ -32,7 +32,6 @@ const quizData = [
 let currentQuestion = 0;
 
 function startGame() {
-    document.getElementById("startButton").style.display = "none"; // 초대장 버튼 숨기기
     document.getElementById("intro").style.display = "none"; // 소개 문구 숨기기
     document.getElementById("quizContainer").classList.remove("hidden"); // 퀴즈 컨테이너 보이기
     loadQuestion();
