@@ -67,3 +67,7 @@ function checkAnswer() {
 function showGiftCard() {
     document.getElementById("giftCard").classList.remove("hidden");
 }
+
+window.onload = function() {
+    document.getElementById("startButton").style.display = "none";
+};
