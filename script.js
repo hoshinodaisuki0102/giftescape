@@ -32,9 +32,9 @@ const quizData = [
 let currentQuestion = 0;
 
 function startGame() {
-    document.getElementById("startButton").style.display = "none";
-    document.getElementById("intro").style.display = "none";
-    document.getElementById("quizContainer").classList.remove("hidden");
+    document.getElementById("startButton").style.display = "none"; // 초대장 버튼 숨기기
+    document.getElementById("intro").style.display = "none"; // 소개 문구 숨기기
+    document.getElementById("quizContainer").classList.remove("hidden"); // 퀴즈 컨테이너 보이기
     loadQuestion();
 }
 
@@ -45,9 +45,9 @@ function loadQuestion() {
         document.getElementById("feedback").innerText = "";
     } else {
         // 모든 퀴즈를 풀고 나면 축하 메시지와 선물을 띄운다.
-        document.getElementById("quizContainer").classList.add("hidden");
-        document.getElementById("congratulationsContainer").classList.remove("hidden");
-        setTimeout(showGiftCard, 500); // 0.5초 후에 카드 나타나게 하기
+        document.getElementById("quizContainer").classList.add("hidden"); // 퀴즈 숨기기
+        document.getElementById("congratulationsContainer").classList.remove("hidden"); // 축하 메시지 보이기
+        setTimeout(showGiftCard, 500); // 0.5초 후에 선물 카드 나타나게 하기
     }
 }
 
@@ -65,9 +65,9 @@ function checkAnswer() {
 }
 
 function showGiftCard() {
-    document.getElementById("giftCard").classList.remove("hidden");
+    document.getElementById("giftCard").classList.remove("hidden"); // 선물 카드 보이기
 }
 
 window.onload = function() {
-    document.getElementById("startButton").style.display = "none";
+    document.getElementById("startButton").style.display = "inline"; // 초기에는 버튼 보이도록 설정
 };
