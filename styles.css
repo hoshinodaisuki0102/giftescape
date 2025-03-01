@@ -32,6 +32,10 @@ button {
     cursor: pointer;
 }
 
+#startButton {
+    display: inline-block; /* 기본적으로 버튼을 보이게 설정 */
+}
+
 button:hover {
     background: #ee5253;
 }
