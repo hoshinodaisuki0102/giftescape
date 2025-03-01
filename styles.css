@@ -32,10 +32,6 @@ button {
     cursor: pointer;
 }
 
-#startButton {
-    display: inline-block; /* 기본적으로 버튼을 보이게 설정 */
-}
-
 button:hover {
     background: #ee5253;
 }
@@ -92,4 +88,10 @@ input {
 @keyframes giftCardAppear {
     0% {
         opacity: 0;
-        transform: scale(
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
