@@ -1,31 +1,31 @@
 const quizData = [
     { 
-        question: "다음 숫자와 관련있는 이름은?   19021216 1920928", 
-        answer: ["유관순 열사", "유관순"] 
+        question: "체세포 분열의 전기에서 염색체가 나타나나요? (O or X) ", 
+        answer: ["O", "o"] 
     },
     { 
-        question: "모든 정수를 다 곱하면 얼마일까요?", 
-        answer: ["0"] 
+        question: "생식세포 분열은 몇 회 일어나나요?", 
+        answer: ["2", "2회"]
     },
     { 
-        question: "이곳은 1919년 일제의 조선 식민지배를 반대하며 약 3000명의 군중이 대한독립을 외친 곳으로 유관순 열사가 참여한 곳입니다. 이 장소는 어디일까요?", 
-        answer: ["아우내장터"] 
+        question: "체세포 분열에서의 딸세포의 수는 몇 개 인가요?", 
+        answer: ["2", "2개"] 
     },
     { 
-        question: "다음 알파벳으로 알맞은 단어를 조합하시오: yadhtrib", 
-        answer: ["birthday"] 
+        question: "체세포 분열에서의 딸세포의 수는 몇 개 인가요?", 
+        answer: ["4", "4개"] 
     },
     { 
-        question: "이것은 1919년 3·1 운동 때 발표된 기미독립선언서에 서명한 위인들을 일컫는다.", 
-        answer: ["민족대표 33인", "민족대표33인"] 
+        question: "생식세포 분열에서는 딸세포의 염색체 수가 모세포의 염색체 수의 절반이다. (O or X)", 
+        answer: ["O", "o"] 
     },
     { 
-        question: "49L 물통에 물을 채웁니다. 가 수도는 1분에 3.1L, 나 수도는 1분에 0.6L를 배출합니다. 물통이 가득 차는 시간은 몇 분 몇 초인가요?", 
-        answer: ["19분 36초", "19분36초"] 
+        question: "체세포 분열의 의미는?", 
+        answer: ["생장", "재생", "체세포 유지"] 
     },
     { 
-        question: "다음 글자를 재배열하라: '울해상힉채'", 
-        answer: ["생일 축하해", "생일축하해"] 
+        question: "생식세포 분열의 의미", 
+        answer: ["생식세포형성", "생식세포 형성", "생식과 유전"] 
     }
 ];
 
@@ -67,3 +67,4 @@ function checkAnswer() {
 function showGiftCard() {
     document.getElementById("giftCard").classList.remove("hidden");
 }
+
