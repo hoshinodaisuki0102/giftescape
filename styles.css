@@ -63,7 +63,7 @@ input {
     color: #666;
 }
 
-/* 이모티콘 결제권 카드 디자인 */
+
 .gift-card {
     display: inline-block;
     background: #fffae5;
@@ -95,3 +95,4 @@ input {
         transform: scale(1);
     }
 }
+
